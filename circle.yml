@@ -3,7 +3,7 @@ machine:
     version: 4.1.0
 
 deployment:
-  staging:
-    branch: master
+  production:
+    # branch: master
     heroku:
       appname: roessle-facebook-events
