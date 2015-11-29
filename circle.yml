@@ -4,6 +4,6 @@ machine:
 
 deployment:
   production:
-    branch: inital_version
+    branch: initial_version
     heroku:
       appname: roessle-facebook-events
