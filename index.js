@@ -28,6 +28,7 @@ var server = http.createServer(function (request, response) {
     console.log(fbRes);
     if (fbRes.statusCode === 200) {
       response.writeHead(fbRes.statusCode, {
+        "Access-Control-Allow-Origin": "*",
         "Content-Type": fbRes.headers["content-type"],
         "ETag": fbRes.headers["etag"],
         "facebook-api-version": fbRes.headers["facebook-api-version"]
