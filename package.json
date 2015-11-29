@@ -1,0 +1,19 @@
+{
+  "name": "facebook-events-proxy",
+  "version": "0.1.0",
+  "description": "An application to proxy a list of events of a page on Facebook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roessle/facebook-events-proxy.git"
+  },
+  "author": "Fabian Stehle",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/roessle/facebook-events-proxy/issues"
+  },
+  "homepage": "https://github.com/roessle/facebook-events-proxy#readme"
+}
