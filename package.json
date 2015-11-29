@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "4.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roessle/facebook-events-proxy.git"
   },
   "author": "Fabian Stehle",
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/roessle/facebook-events-proxy/issues"
-  },
-  "homepage": "https://github.com/roessle/facebook-events-proxy#readme"
+  "homepage": "https://github.com/roessle/facebook-events-proxy"
 }
